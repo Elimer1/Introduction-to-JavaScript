@@ -38,7 +38,13 @@
 // console.log(average);
 
 //25
-const numbers = [5, 2, 8, 1, 4];
+// const numbers = [5, 2, 8, 1, 4];
 
-const sorted = numbers.sort((a, b) => b - a);
-console.log(sorted);
+// const sorted = numbers.sort((a, b) => b - a);
+// console.log(sorted);
+
+//29
+const items = ["apple", "banana", "cherry", "date", "elderberry"];
+
+items.splice(1, 2);
+console.log(items);
