@@ -44,7 +44,13 @@
 // console.log(sorted);
 
 //29
-const items = ["apple", "banana", "cherry", "date", "elderberry"];
+// const items = ["apple", "banana", "cherry", "date", "elderberry"];
 
-items.splice(1, 2);
-console.log(items);
+// items.splice(1, 2);
+// console.log(items);
+
+//32
+// const nestedArray = [1, 2, [3, 4], 5, [6, 7]];
+// const flatOne = nestedArray.flat();
+
+// console.log(flatOne);
