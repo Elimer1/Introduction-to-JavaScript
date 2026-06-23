@@ -54,3 +54,12 @@
 // const flatOne = nestedArray.flat();
 
 // console.log(flatOne);
+
+//36
+const numbers = [1, 2, 3, 4, 5, 6];
+const calcChain = numbers
+  .filter((num) => !(num % 2))
+  .map((num) => num * 2)
+  .reduce((acc, curr) => acc + curr);
+
+console.log(calcChain);
