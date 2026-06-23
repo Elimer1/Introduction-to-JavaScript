@@ -56,10 +56,47 @@
 // console.log(flatOne);
 
 //36
-const numbers = [1, 2, 3, 4, 5, 6];
-const calcChain = numbers
-  .filter((num) => !(num % 2))
-  .map((num) => num * 2)
-  .reduce((acc, curr) => acc + curr);
+// const numbers = [1, 2, 3, 4, 5, 6];
+// const calcChain = numbers
+//   .filter((num) => !(num % 2))
+//   .map((num) => num * 2)
+//   .reduce((acc, curr) => acc + curr);
 
-console.log(calcChain);
+// console.log(calcChain);
+
+//38
+// const items = [{ type: "fruit" }, { type: "veg" }, { type: "fruit" }];
+
+// const groupBy = items.reduce((acc, curr) => {
+//   const key = curr.type;
+
+//   if (!acc[key]) acc[key] = [];
+//   acc[key].push(curr);
+//   return acc;
+// }, {});
+
+// console.log(groupBy);
+
+//39
+// const nums = [1, 2, 3];
+
+// const hasDuplicates = nums.some(
+//   (element, index, array) => index !== array.indexOf(element),
+// );
+// console.log(hasDuplicates);
+
+//41
+// const products = [
+//   { name: "Laptop", price: 800, inStock: true, category: "tech" },
+//   { name: "Phone", price: 400, inStock: false, category: "tech" },
+//   { name: "Shirt", price: 50, inStock: true, category: "fashion" },
+// ];
+
+// const finalProduct = products
+//   .filter((product) => product.inStock === true)
+//   .filter((product) => product.price > 100)
+//   .sort((a, b) => a.price - b.price)
+//   .map((product) => product.name)
+//   .join(" ");
+
+// console.log(finalProduct);
