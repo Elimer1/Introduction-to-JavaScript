@@ -28,11 +28,17 @@
 // console.log(listProduct);
 
 //12
-const users = [
-  { name: "Avi", age: 20 },
-  { name: "Dana", age: 30 },
-  { name: "Yossi", age: 40 },
-];
+// const users = [
+//   { name: "Avi", age: 20 },
+//   { name: "Dana", age: 30 },
+//   { name: "Yossi", age: 40 },
+// ];
 
-const average = users.reduce((acc, curr) => acc + curr.age, 0) / users.length;
-console.log(average);
+// const average = users.reduce((acc, curr) => acc + curr.age, 0) / users.length;
+// console.log(average);
+
+//25
+const numbers = [5, 2, 8, 1, 4];
+
+const sorted = numbers.sort((a, b) => b - a);
+console.log(sorted);
