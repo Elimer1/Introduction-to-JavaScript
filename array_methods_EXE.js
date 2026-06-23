@@ -21,8 +21,18 @@
 // console.log(filterMap);
 
 //10
-const nums = [1, 2, 3, 4];
+// const nums = [1, 2, 3, 4];
 
-const listProduct = nums.reduce((acc, curr) => acc * curr);
+// const listProduct = nums.reduce((acc, curr) => acc * curr);
 
-console.log(listProduct);
+// console.log(listProduct);
+
+//12
+const users = [
+  { name: "Avi", age: 20 },
+  { name: "Dana", age: 30 },
+  { name: "Yossi", age: 40 },
+];
+
+const average = users.reduce((acc, curr) => acc + curr.age, 0) / users.length;
+console.log(average);
