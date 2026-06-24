@@ -8,6 +8,8 @@ const User = require("./newUser.js");
 const numbers = require("./numbers.js");
 const config = require("./config.js");
 const getRandom = require("./random.js");
+const squareSum = require("./advancedMath.js");
+const { info, error } = require("./logger.js");
 
 console.log(greeting("eli"));
 console.log(user);
@@ -23,3 +25,6 @@ const user1 = new User("eli");
 console.log(numbers.reduce((acc, curr) => acc + curr));
 console.log(config.dbName, config.port, config.theme);
 console.log(getRandom());
+console.log(squareSum(5, 7));
+info("system started successfully");
+error("failed to connect to database");
